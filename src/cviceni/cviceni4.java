@@ -1,10 +1,10 @@
 package cviceni;
 
-public class cviceni2 {
+public class cviceni4 {
     public static void main(String[] args) {
-        String regex = "\\d{6}/\\d{4}";         //(bez pravidel muz/zena)
-        String rodneCislo = "121208/5260";
-        if (rodneCislo.matches(regex)){
+        String regex = "[A-Z][a-z]{2,}";
+        String jmeno = "Hugo";
+        if (jmeno.matches(regex)){
             System.out.println("true");
         }
         else {
